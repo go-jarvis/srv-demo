@@ -8,9 +8,7 @@ import (
 func main() {
 
 	r := global.Server()
-	// r.Register(apis.RouterRoot)
-
-	global.Server().Register(apis.RouterRoot)
+	r.Register(apis.RouterRoot)
 
 	global.App.Run(
 		r,
