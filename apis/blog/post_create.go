@@ -22,8 +22,6 @@ func (po *CreatePost) Output(c *gin.Context) (interface{}, error) {
 
 	db := db.DBExecutorFrom(c)
 
-	InitialPost(db)
-
 	_, err := db.Exec(insertPostSql, post.Title, post.Content)
 	if err != nil {
 		return nil, err

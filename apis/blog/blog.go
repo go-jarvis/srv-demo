@@ -31,7 +31,7 @@ create table if not exists posts(
 
 var once sync.Once
 
-func InitialPost(db *sql.DB) {
+func MigratePost(db *sql.DB) {
 	fn := func() {
 		logrus.Debugf("try to create table posts")
 		_, err := db.Exec(createTablePosts)
