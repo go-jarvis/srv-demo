@@ -5,8 +5,11 @@ go 1.17
 require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-jarvis/confhttp v0.0.0-00010101000000-000000000000
+	github.com/go-jarvis/confmysql v0.0.0-00010101000000-000000000000
 	github.com/go-jarvis/jarvis v0.2.2
 	github.com/go-jarvis/rum-gonic v0.3.0
+	github.com/sirupsen/logrus v1.8.1
+	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
 )
 
 require (
@@ -14,6 +17,7 @@ require (
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.9.0 // indirect
+	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/goccy/go-json v0.7.6 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/json-iterator/go v1.1.11 // indirect
@@ -21,7 +25,6 @@ require (
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
 	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
-	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/tangx/envutils v0.3.2 // indirect
 	github.com/tangx/ginbinder v0.1.2 // indirect
 	github.com/ugorji/go/codec v1.2.6 // indirect

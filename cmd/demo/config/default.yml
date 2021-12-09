@@ -1,2 +1,7 @@
 APP__HttpServer_Addr: ""
 APP__HttpServer_Port: 80
+APP__MysqlOnline_DbName: ""
+APP__MysqlOnline_Host: 127.0.0.1
+APP__MysqlOnline_Password: ""
+APP__MysqlOnline_Port: 3306
+APP__MysqlOnline_User: ""
