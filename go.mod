@@ -34,3 +34,5 @@ require (
 )
 
 replace github.com/go-jarvis/confhttp => /data/gopath/src/github.com/go-jarvis/confhttp
+
+replace github.com/go-jarvis/confmysql => /data/gopath/src/github.com/go-jarvis/confmysql
