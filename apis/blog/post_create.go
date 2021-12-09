@@ -24,7 +24,7 @@ func (po *CreatePost) Output(c *gin.Context) (interface{}, error) {
 
 	InitialPost(db)
 
-	_, err := db.Exec(insertPostSql, post.Title, post.Content, timestamp())
+	_, err := db.Exec(insertPostSql, post.Title, post.Content)
 	if err != nil {
 		return nil, err
 	}
@@ -33,5 +33,5 @@ func (po *CreatePost) Output(c *gin.Context) (interface{}, error) {
 
 var insertPostSql = `
 insert into posts(title, content, create_time)
-	values(?, ?, ?);
+	values(?, ?, Now());
 `
