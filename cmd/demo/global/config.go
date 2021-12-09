@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	r           = &confhttp.Server{}
+	httpserver  = &confhttp.Server{}
 	mysqlOnline = &confmysql.Mysql{}
 )
 var (
@@ -20,7 +20,7 @@ func init() {
 		HttpServer  *confhttp.Server
 		MysqlOnline *confmysql.Mysql
 	}{
-		HttpServer:  r,
+		HttpServer:  httpserver,
 		MysqlOnline: mysqlOnline,
 	}
 
@@ -29,9 +29,9 @@ func init() {
 
 func Server() *confhttp.Server {
 
-	r.WithContextCompose(
-		db.WithOnlineDBExecutor(mysqlOnline.DB),
+	httpserver.WithContextInjectors(
+		db.WithDBExecutor(mysqlOnline.DB),
 	)
 
-	return r
+	return httpserver
 }

@@ -11,15 +11,15 @@ import (
 type DemoDBExecutor string
 
 const (
-	Key_DemoOnlineDB DemoDBExecutor = "mysql-online"
+	Key_DemoDB DemoDBExecutor = "mysql"
 )
 
-func WithOnlineDBExecutor(db *sql.DB) func(ctx context.Context) context.Context {
+func WithDBExecutor(db *sql.DB) func(ctx context.Context) context.Context {
 	logrus.Infof("注入sqldb")
-	return rum.WithContextValue(Key_DemoOnlineDB, db)
+	return rum.InjectContextValueWith(Key_DemoDB, db)
 }
 
-func OnlineDBExecutorFrom(ctx context.Context) *sql.DB {
-	val := rum.FromContextValue(ctx, Key_DemoOnlineDB)
+func DBExecutorFrom(ctx context.Context) *sql.DB {
+	val := rum.InjectedContextValueFrom(ctx, Key_DemoDB)
 	return val.(*sql.DB)
 }

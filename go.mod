@@ -7,7 +7,7 @@ require (
 	github.com/go-jarvis/confhttp v0.0.0-00010101000000-000000000000
 	github.com/go-jarvis/confmysql v0.0.0-00010101000000-000000000000
 	github.com/go-jarvis/jarvis v0.2.2
-	github.com/go-jarvis/rum-gonic v0.3.0
+	github.com/go-jarvis/rum-gonic v0.2.0
 	github.com/sirupsen/logrus v1.8.1
 	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
 )
@@ -39,3 +39,5 @@ require (
 replace github.com/go-jarvis/confhttp => /data/gopath/src/github.com/go-jarvis/confhttp
 
 replace github.com/go-jarvis/confmysql => /data/gopath/src/github.com/go-jarvis/confmysql
+
+replace github.com/go-jarvis/rum-gonic => /data/gopath/src/github.com/go-jarvis/rum-gonic

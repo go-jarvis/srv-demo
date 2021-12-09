@@ -10,9 +10,6 @@ github.com/gin-gonic/gin v1.7.7/go.mod h1:axIBovoeJpVj8S3BwE0uPMTeReE4+AfFtqpqaZ
 github.com/go-jarvis/jarvis v0.2.1/go.mod h1:nfmnMwkBKKUTRfavB8p0Zqc06KZz15jJIZVQq3xDUVQ=
 github.com/go-jarvis/jarvis v0.2.2 h1:Tq9E6RQJO3AjHjudAwjbeVW3ZmS7/HspARQOLnRTuyc=
 github.com/go-jarvis/jarvis v0.2.2/go.mod h1:nfmnMwkBKKUTRfavB8p0Zqc06KZz15jJIZVQq3xDUVQ=
-github.com/go-jarvis/rum-gonic v0.2.0/go.mod h1:iixvFv5x6Q5v96vEFBCm2Dsn6uQNreapHFibnBnpll8=
-github.com/go-jarvis/rum-gonic v0.3.0 h1:74cYcuVm4TlOnqwJPZd1DP5NeKbRPPUkltcaYgoTdwo=
-github.com/go-jarvis/rum-gonic v0.3.0/go.mod h1:iixvFv5x6Q5v96vEFBCm2Dsn6uQNreapHFibnBnpll8=
 github.com/go-playground/assert/v2 v2.0.1 h1:MsBgLAaY856+nPRTKrp3/OZK38U/wa0CcBYNjji3q3A=
 github.com/go-playground/assert/v2 v2.0.1/go.mod h1:VDjEfimB/XKnb+ZQfWdccd7VUvScMdVu0Titje2rxJ4=
 github.com/go-playground/locales v0.13.0/go.mod h1:taPMhCMXrRLJO55olJkUXHZBHCxTMfnGwq/HNwmWNS8=

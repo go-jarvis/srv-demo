@@ -26,7 +26,7 @@ func (i *Index) Output(c *gin.Context) (interface{}, error) {
 }
 
 func createTable(ctx context.Context) error {
-	db := db.OnlineDBExecutorFrom(ctx)
+	db := db.DBExecutorFrom(ctx)
 
 	sql := `
 create table if not exists users (
