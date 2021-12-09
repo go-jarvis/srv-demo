@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/tangx/srv-demo/apis"
-	"github.com/tangx/srv-demo/global"
+	"github.com/tangx/srv-demo/cmd/demo/global"
 )
 
 func main() {
