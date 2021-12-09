@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/tangx/srv-demo/apis"
-	"github.com/tangx/srv-demo/cmd/demo/global"
+	"github.com/go-jarvis/srv-demo/apis"
+	"github.com/go-jarvis/srv-demo/cmd/demo/global"
 )
 
 func main() {

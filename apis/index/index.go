@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-jarvis/rum-gonic/pkg/httpx"
-	"github.com/tangx/srv-demo/utils/db"
+	"github.com/go-jarvis/srv-demo/utils/db"
 	"golang.org/x/net/context"
 )
 

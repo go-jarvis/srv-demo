@@ -2,9 +2,9 @@ package apis
 
 import (
 	"github.com/go-jarvis/rum-gonic/rum"
-	"github.com/tangx/srv-demo/apis/blog"
-	"github.com/tangx/srv-demo/apis/index"
-	"github.com/tangx/srv-demo/apis/user"
+	"github.com/go-jarvis/srv-demo/apis/blog"
+	"github.com/go-jarvis/srv-demo/apis/index"
+	"github.com/go-jarvis/srv-demo/apis/user"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/tangx/srv-demo
+module github.com/go-jarvis/srv-demo
 
 go 1.17
 
