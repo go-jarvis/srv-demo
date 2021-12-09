@@ -1,0 +1,9 @@
+
+### Create Post
+POST http://127.0.0.1:8088/v0/blog/post
+Content-Type: application/json
+
+{
+    "title":"mysql timestamp 会自动转换时间吗？",
+    "content":"试试不就知道了？"
+}
